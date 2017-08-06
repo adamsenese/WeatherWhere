@@ -1,11 +1,26 @@
 $space-large: 3.5rem;
+$text-color: #585858;
+
 
 .page-title {
   margin-top: $space-large;
   margin-bottom: $space-large;
   font-weight: 200;
+  color: $text-color;
 }
 
 input[type=search] {
   box-shadow: none;
+}
+
+.menu-text {
+    color: $text-color;
+}
+
+p {
+    color: $text-color;
+}
+
+li {
+    color: $text-color;
 }
